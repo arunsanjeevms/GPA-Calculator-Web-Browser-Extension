@@ -99,7 +99,7 @@ If your ERP grades table structure changes:
 ![Extension View](Screenshots/1.png)
 
 ### Extension in Menu Bar
-![Menu Bar view](Screenshots/3.png)
+![Menu Bar view](Screenshots/2.png)
 
 ### Popup
 ![popup](Screenshots/4.png)
