@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <h1>CGPA CALCULATOR by Arun</h1>
+    <button id="refresh-btn" title="Recalculate">↻</button>
+  </header>
+  <section id="summary">
+    <div class="stat"><span class="label">CGPA</span><span id="cgpa-value">--</span></div>
+    <div class="stat"><span class="label">Credits</span><span id="credits-value">--</span></div>
+  </section>
+  <section>
+    <h2>Semester Breakdown</h2>
+    <div id="semester-list" class="list"></div>
+  </section>
+  <section>
+    <h2>Grades Parsed</h2>
+    <div id="grades-table"></div>
+  </section>
+  <footer>
+    <small>Data is read from the CAMS page.</small>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>

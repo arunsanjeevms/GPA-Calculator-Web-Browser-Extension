@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "CGPA Calculator by Arun",
+    "version": "1.0.0",
+    "description": "Calculate and display your CGPA directly on the ERP site (camsmkce.in)",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["*://*.camsmkce.in/*"],
+    "action": {
+        "default_title": "CGPA",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.camsmkce.in/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle",
+            "all_frames": true
+        }
+    ]
+}

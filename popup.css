@@ -1,0 +1,21 @@
+body { font-family: system-ui, Segoe UI, Arial, sans-serif; margin:0; padding:10px; background:#0f172a; color:#f1f5f9; width:340px; }
+header { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+h1 { font-size:18px; margin:0; }
+#refresh-btn { background:#334155; color:#fff; border:none; border-radius:4px; width:32px; height:32px; font-size:16px; cursor:pointer; }
+#refresh-btn:hover { background:#475569; }
+section { margin-bottom:14px; }
+#summary { display:flex; gap:12px; }
+.stat { background:#1e293b; padding:10px 12px; border-radius:8px; flex:1; display:flex; flex-direction:column; gap:4px; }
+.label { font-size:11px; letter-spacing:.5px; text-transform:uppercase; opacity:.7; }
+#cgpa-value { font-size:20px; font-weight:600; color:#4ade80; }
+#credits-value { font-size:18px; font-weight:500; }
+h2 { font-size:14px; margin:0 0 6px; font-weight:600; }
+.list { display:flex; flex-direction:column; gap:6px; max-height:140px; overflow:auto; }
+.sem-item { background:#1e293b; padding:6px 8px; border-radius:6px; display:flex; justify-content:space-between; font-size:12px; }
+#grades-table { max-height:160px; overflow:auto; font-size:12px; border:1px solid #1e293b; border-radius:6px; }
+#grades-table table { width:100%; border-collapse:collapse; min-width:520px; }
+#grades-table th, #grades-table td { padding:4px 6px; text-align:left; }
+#grades-table th:nth-child(3), #grades-table td:nth-child(3) { max-width:210px; }
+#grades-table th { position:sticky; top:0; background:#1e293b; }
+#grades-table tr:nth-child(even) { background:#162036; }
+footer { text-align:center; opacity:.6; font-size:11px; }
