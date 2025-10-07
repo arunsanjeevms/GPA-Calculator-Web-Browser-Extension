@@ -96,18 +96,15 @@ If your ERP grades table structure changes:
 ## Screenshots
 
 ### Extension Overlay on Grades Page
-![Extension Overlay](Screenshots/1.png)
+![Extension View](Screenshots/1.png)
 
-### Detailed Popup View
-![Popup View](Screenshots/2.png)
+### Extension in Menu Bar
+![Menu Bar view](Screenshots/3.png)
 
-### CGPA Calculation Breakdown
-![CGPA Breakdown](Screenshots/3.png)
+### Popup
+![popup](Screenshots/4.png)
 
-### Semester-wise GPA Display
-![Semester GPA](Screenshots/4.png)
-
-### Result Publishing Page Integration
+### GPA and Credits
 ![Result Page](Screenshots/5.png)
 
 ---
